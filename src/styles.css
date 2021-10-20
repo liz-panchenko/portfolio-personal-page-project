@@ -61,9 +61,3 @@ a.primary-link {
 #overwrite .dots-img {
   max-width: 40%;
 }
-
-@media (max-width: 576px) {
-  body {
-    zoom: 50%;
-  }
-}
