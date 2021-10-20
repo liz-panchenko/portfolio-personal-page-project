@@ -61,3 +61,12 @@ a.primary-link {
 #overwrite .dots-img {
   max-width: 40%;
 }
+
+@media (max-width: 576px) {
+  .dots {
+    display: none;
+  }
+  h1 {
+    text-align: center;
+  }
+}
