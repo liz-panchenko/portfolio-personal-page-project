@@ -1,4 +1,15 @@
 h1 {
-    color: #5D67C1;
-    text-align: center;
+  color: #5d67c1;
+  text-align: center;
+  margin-top: 7rem;
+}
+
+.navbar-style {
+  background-color: #e8f1ff;
+}
+
+a.nav-link.active {
+  text-decoration-line: underline !important;
+  text-decoration-style: dotted !important;
+  text-decoration-color: #ffb240 !important;
 }
