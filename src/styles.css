@@ -15,7 +15,7 @@ h1, h2, h3 {
 
 h1 {
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 h3 {
@@ -48,4 +48,16 @@ a.primary-link {
   font-size: 1.1rem;
   line-height: 3rem;
   text-decoration: none;
+}
+
+.dots-img-rotated {
+    transform: rotate(180deg);
+    float: right;  
+}
+
+
+@media (max-width: 576px) {
+  body {
+    zoom: 50%;
+  }
 }
