@@ -8,9 +8,11 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-h1, h2, h3 {
-    color: var(--primary-color);
-    text-align: center;
+h1,
+h2,
+h3 {
+  color: var(--primary-color);
+  text-align: center;
 }
 
 h1 {
@@ -51,10 +53,14 @@ a.primary-link {
 }
 
 .dots-img-rotated {
-    transform: rotate(180deg);
-    float: right;  
+  transform: rotate(180deg);
+  float: right;
 }
 
+#overwrite .dots-img-rotated,
+#overwrite .dots-img {
+  max-width: 40%;
+}
 
 @media (max-width: 576px) {
   body {
