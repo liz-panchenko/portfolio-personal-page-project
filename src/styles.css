@@ -52,7 +52,8 @@ a.primary-link {
   text-decoration: none;
 }
 
-.dots-img-rotated {
+.dots-img-rotated,
+.portfolio-img-dots-rotated {
   transform: rotate(180deg);
   float: right;
 }
@@ -61,6 +62,31 @@ a.primary-link {
 #overwrite .dots-img {
   max-width: 40%;
 }
+
+.portfolio-project-description-right {
+    background: linear-gradient(270deg, #E8F1FF 0%, #ECF4FF 41.15%, #F3F8FF 65.1%, #FFFFFF 93.75%);
+    padding: 50px 70px;
+    color: var(--primary-color);
+}
+.portfolio-project-description-right h4,
+.portfolio-project-description-left h4 {
+    font-weight: normal;
+}
+.portfolio-project-description-right a,
+.portfolio-project-description-left a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+.right-arrow-link{
+    max-height: 45px;
+}
+
+.portfolio-project-description-left {
+    background: linear-gradient(90deg, #E8F1FF 0%, #ECF4FF 41.15%, #F3F8FF 65.1%, #FFFFFF 93.75%);
+    padding: 50px 70px;
+    color: var(--primary-color);
+}
+
 
 @media (max-width: 576px) {
   .dots {
@@ -75,4 +101,10 @@ a.primary-link {
   a.primary-link {
       zoom: 80%
   }
+  .eye-project-img,
+  .weather-project-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 60%;
+}
 }
