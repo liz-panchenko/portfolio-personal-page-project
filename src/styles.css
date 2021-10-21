@@ -64,47 +64,99 @@ a.primary-link {
 }
 
 .portfolio-project-description-right {
-    background: linear-gradient(270deg, #E8F1FF 0%, #ECF4FF 41.15%, #F3F8FF 65.1%, #FFFFFF 93.75%);
-    padding: 50px 70px;
-    color: var(--primary-color);
+  background: linear-gradient(
+    270deg,
+    #e8f1ff 0%,
+    #ecf4ff 41.15%,
+    #f3f8ff 65.1%,
+    #ffffff 93.75%
+  );
+  padding: 50px 70px;
+  color: var(--primary-color);
 }
 .portfolio-project-description-right h4,
 .portfolio-project-description-left h4 {
-    font-weight: normal;
+  font-weight: normal;
 }
 .portfolio-project-description-right a,
 .portfolio-project-description-left a {
-    text-decoration: none;
-    color: var(--primary-color);
+  text-decoration: none;
+  color: var(--primary-color);
 }
-.right-arrow-link{
-    max-height: 45px;
+.right-arrow-link {
+  max-height: 45px;
 }
 
 .portfolio-project-description-left {
-    background: linear-gradient(90deg, #E8F1FF 0%, #ECF4FF 41.15%, #F3F8FF 65.1%, #FFFFFF 93.75%);
-    padding: 50px 70px;
-    color: var(--primary-color);
+  background: linear-gradient(
+    90deg,
+    #e8f1ff 0%,
+    #ecf4ff 41.15%,
+    #f3f8ff 65.1%,
+    #ffffff 93.75%
+  );
+  padding: 50px 70px;
+  color: var(--primary-color);
+}
+footer {
+  background-color: var(--secondary-color);
+  margin-top: 50px;
+}
+.card {
+  text-align: center;
+  border: none;
+  background-color: var(--secondary-color);
+}
+.card-img-top {
+  display: block;
+  margin: 0 auto;
+  max-width: 50px;
+}
+.card-title {
+  font-weight: 500;
+  font-size: 24px;
+  color: var(--primary-color);
 }
 
+footer a {
+  font-weight: normal;
+  font-size: 16px;
+  text-decoration: none;
+  color: var(--primary-color);
+}
 
 @media (max-width: 576px) {
   .dots {
     display: none;
   }
-  h1, h2, h3 {
-      zoom: 70%
+  h1,
+  h2,
+  h3 {
+    zoom: 70%;
   }
   h1 {
-      padding-top: 10px;
+    padding-top: 10px;
   }
   a.primary-link {
-      zoom: 80%
+    zoom: 80%;
   }
+
   .eye-project-img,
   .weather-project-img {
     display: block;
-    margin: 0 auto;
+    margin: 20px auto;
     max-width: 60%;
+  }
+  footer {
+    margin-top: 0px;
+  }
+  .card {
+    zoom: 70%;
+  }
 }
+
+@media (max-width: 768px) {
+  .card {
+    zoom: 70%;
+  }
 }
