@@ -29,10 +29,10 @@ h3 {
   background-color: var(--secondary-color);
 }
 
-a.nav-link.active {
-  text-decoration-line: underline !important;
-  text-decoration-style: dotted !important;
-  text-decoration-color: var(--accent-color) !important;
+#overwrite a.nav-link.active {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: var(--accent-color);
 }
 
 .navigation-link {
@@ -66,7 +66,13 @@ a.primary-link {
   .dots {
     display: none;
   }
+  h1, h2, h3 {
+      zoom: 70%
+  }
   h1 {
-    text-align: center;
+      padding-top: 10px;
+  }
+  a.primary-link {
+      zoom: 80%
   }
 }
