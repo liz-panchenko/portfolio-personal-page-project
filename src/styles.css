@@ -37,7 +37,7 @@ h3 {
 
 .navigation-link {
   display: block;
-  margin: 25px auto;
+  margin: 25px auto 50px;
   width: fit-content;
   background-color: var(--accent-color);
   border-radius: 100px;
@@ -74,15 +74,18 @@ a.primary-link {
   padding: 50px 70px;
   color: var(--primary-color);
 }
+
 .portfolio-project-description-right h4,
 .portfolio-project-description-left h4 {
   font-weight: normal;
 }
+
 .portfolio-project-description-right a,
 .portfolio-project-description-left a {
   text-decoration: none;
   color: var(--primary-color);
 }
+
 .right-arrow-link {
   max-height: 45px;
 }
@@ -98,20 +101,25 @@ a.primary-link {
   padding: 50px 70px;
   color: var(--primary-color);
 }
-footer {
+
+#overwrite footer {
+  margin-top: 60px;
   background-color: var(--secondary-color);
-  margin-top: 50px;
 }
+
 .card {
   text-align: center;
   border: none;
   background-color: var(--secondary-color);
+  padding-top: 20px;
 }
+
 .card-img-top {
   display: block;
   margin: 0 auto;
   max-width: 50px;
 }
+
 .card-title {
   font-weight: 500;
   font-size: 24px;
@@ -137,17 +145,19 @@ footer a {
   h1 {
     padding-top: 10px;
   }
+  .navigation-link {
+    margin: 25px auto 15px;
+  }
   a.primary-link {
     zoom: 80%;
   }
-
   .eye-project-img,
   .weather-project-img {
     display: block;
     margin: 20px auto;
     max-width: 60%;
   }
-  footer {
+  #overwrite footer {
     margin-top: 0px;
   }
   .card {
@@ -158,5 +168,20 @@ footer a {
 @media (max-width: 768px) {
   .card {
     zoom: 70%;
+  }
+}
+
+@media (min-width: 768px) {
+  .navigation-link {
+    margin-bottom: 70px;
+  }
+  .eye-project-img {
+    padding-left: 50px;
+  }
+  .weather-project-img {
+    padding-right: 50px;
+  }
+  #overwrite footer {
+    margin-top: 100px;
   }
 }
