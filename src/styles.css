@@ -80,6 +80,12 @@ a.primary-link {
   font-weight: normal;
 }
 
+.portfolio-project-description-right p,
+.portfolio-project-description-left p {
+    line-height: 1.7;
+    opacity: 0.8;
+}
+
 .portfolio-project-description-right a,
 .portfolio-project-description-left a {
   text-decoration: none;
