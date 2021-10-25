@@ -24,6 +24,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/src/styles.css" />
+    <link rel="stylesheet" href="/src/about.css" />
   </head>
   <body id="overwrite">
     <nav
@@ -79,38 +80,43 @@
       </div>
     </nav>
     <div class="container-fluid">
-      <div class="row">
-        <div class="col mt-5"></div>
-      </div>
-      <div class="row mt-5 pt-md-5">
-        <h3>My name is</h3>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-2 align-self-center dots">
+      <div class="row about-me-hero mx-lg-5">
+        <div class="col-md-7 align-self-center">
+          <h3>My name is</h3>
+          <div class="row justify-content-center g-md-1 g-lg-3">
+            <div class="col-2 align-self-center dots">
+              <img
+                src="/images/three-dots-1x.png"
+                class="img-fluid dots-img-rotated"
+                alt="Three dots"
+              />
+            </div>
+            <div class="col-auto"><h1>Liz Panchenko</h1></div>
+            <div class="col-2 align-self-center dots">
+              <img
+                src="/images/three-dots-1x.png"
+                class="img-fluid dots-img"
+                alt="Three dots"
+              />
+            </div>
+          </div>
+          <h2>
+            Junior Web Developer, <br />
+            former physician, <br />
+            currently based in London, UK
+          </h2>
+        </div>
+        <div class="col-md-5">
           <img
-            src="/images/three-dots-1x.png"
-            class="img-fluid dots-img-rotated"
-            alt="Three dots"
+            src="/images/my-photo.JPEG"
+            class="img-fluid photo rounded"
+            alt="Liz Panchenko photo"
           />
         </div>
-        <div class="col-auto"><h1>Liz Panchenko</h1></div>
-        <div class="col-2 align-self-center dots">
-          <img
-            src="/images/three-dots-1x.png"
-            class="img-fluid dots-img"
-            alt="Three dots"
-          />
-        </div>
       </div>
-      <div class="row">
-        <h2>
-          Junior Web Developer, <br />
-          former physician, <br />
-          currently based in London, UK
-        </h2>
-      </div>
-      <div class="navigation-link">
-        <a href="#" class="primary-link" title="Contact Liz Panchenko page"
+      
+      <div>
+        <a href="#" class="cv-link" title="CV Liz Panchenko"
           >My CV</a
         >
       </div>
@@ -119,12 +125,12 @@
         <div class="col-sm-5 align-self-center">
           <img
             src="/images/certificat-basic.png"
-            class="img-fluid eye-project-img"
+            class="img-fluid certificat-img"
             alt="SheCodes Basic verified certificat"
           />
         </div>
         <div class="col-12 col-sm-7 mb-5 portfolio-project-description-right">
-          <h4>SheCodes basic cerificate</h4>
+          <h4>SheCodes Basic cerificate</h4>
           <p>
             Online Coding Workshop "Introduction to Coding" verified
             certificate.
@@ -163,7 +169,7 @@
         <div class="col-sm-5 align-self-center">
           <img
             src="/images/certificat-plus.png"
-            class="img-fluid weather-project-img"
+            class="img-fluid certificat-img"
             alt="SheCodes Plus verified certificat"
           />
         </div>

@@ -52,8 +52,7 @@ a.primary-link {
   text-decoration: none;
 }
 
-.dots-img-rotated,
-.portfolio-img-dots-rotated {
+.dots-img-rotated {
   transform: rotate(180deg);
   float: right;
 }
