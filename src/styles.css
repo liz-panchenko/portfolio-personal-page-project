@@ -43,6 +43,12 @@ h3 {
   border-radius: 100px;
 }
 
+.navigation-link:hover {
+  border: solid 1px var(--accent-color);
+  border-radius: 100px; 
+  background-color: white;
+}
+
 a.primary-link {
   color: white;
   padding: 10px 40px;
@@ -50,6 +56,10 @@ a.primary-link {
   font-size: 1.1rem;
   line-height: 3rem;
   text-decoration: none;
+}
+
+a.primary-link:hover{
+  color:var(--accent-color);
 }
 
 .dots-img-rotated {

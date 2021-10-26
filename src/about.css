@@ -20,6 +20,13 @@
   text-decoration: none;
 }
 
+.cv-link:hover{
+  border: solid 1px var(--accent-color);
+  border-radius: 100px; 
+  background-color: white;
+  color: var(--accent-color);
+}
+
 @media (max-width: 576px) {
     h1, h2 {
         zoom: 90%;
