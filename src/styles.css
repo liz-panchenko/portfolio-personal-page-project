@@ -122,20 +122,20 @@ a.primary-link:hover{
   background-color: var(--secondary-color);
 }
 
-.card {
+footer .card {
   text-align: center;
   border: none;
   background-color: var(--secondary-color);
   padding-top: 20px;
 }
 
-.card-img-top {
+footer .card-img-top {
   display: block;
   margin: 0 auto;
   max-width: 50px;
 }
 
-.card-title {
+footer .card-title {
   font-weight: 500;
   font-size: 24px;
   color: var(--primary-color);

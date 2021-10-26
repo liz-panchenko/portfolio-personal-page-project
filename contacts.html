@@ -24,9 +24,9 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/src/styles.css" />
-    <link rel="stylesheet" href="/src/contacts.css">
+    <link rel="stylesheet" href="/src/contacts.css" />
   </head>
-  <body id="overwrite">
+  <body id="overwrite-contact">
     <nav
       class="
         navbar
@@ -62,9 +62,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="/index.html"
-                >Homepage</a
-              >
+              <a class="nav-link" href="/index.html">Homepage</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/about.html">About me</a>
@@ -73,67 +71,113 @@
               <a class="nav-link" href="/projects.html">My projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/contacts.html">Contacts</a>
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/contacts.html"
+                >Contacts</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <footer class="row row-cols-1 row-cols-sm-3 py-3">
-        <div class="col">
-          <div class="card">
-            <a href="mailto:panchenko.elisa@gmail.com" target="_blank">
-              <img src="/images/mail-icon.png" class="card-img-top" alt="..." />
-            </a>
-            <div class="card-body">
-              <h5 class="card-title">Email</h5>
-              <a href="mailto:panchenko.elisa@gmail.com" target="_blank"
-                >panchenko.elisa@gmail.com</a
-              >
+    <div class="container-fluid">
+      <div class="row justify-content-center contact-hero">
+        <div class="col-2 align-self-center dots">
+          <img
+            src="/images/three-dots-1x.png"
+            class="img-fluid dots-img-rotated"
+            alt="Three dots"
+          />
+        </div>
+        <div class="col-auto"><h1>Contact me</h1></div>
+        <div class="col-2 align-self-center dots">
+          <img
+            src="/images/three-dots-1x.png"
+            class="img-fluid dots-img"
+            alt="Three dots"
+          />
+        </div>
+      </div>
+      <!-- /////////////////////// -->
+      <div class="row m-lg-4">
+        <div class="col-12 col-lg-4 p-0">
+          <div class="card contact-card mb-3">
+            <div class="row g-0">
+              <div class="col-lg-3">
+                <a href="mailto:panchenko.elisa@gmail.com" target="_blank">
+                  <img
+                    src="/images/mail-icon.png"
+                    class="img-fluid"
+                    alt="Email icon"
+                  />
+                </a>
+              </div>
+              <div class="col-lg-9">
+                <div class="card-body">
+                  <h5 class="card-title">Email</h5>
+                  <a href="mailto:panchenko.elisa@gmail.com" target="_blank"
+                    >panchenko.elisa@gmail.com</a
+                  >
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card">
-            <a
-              href="https://www.linkedin.com/in/ielyzaveta-panchenko/"
-              target="_blank"
-            >
-              <img
-                src="/images/linkedin-logo.png"
-                class="card-img-top"
-                alt="..."
-              />
-            </a>
-            <div class="card-body">
-              <h5 class="card-title">LinkedIn</h5>
-              <a
-                href="https://www.linkedin.com/in/ielyzaveta-panchenko/"
-                target="_blank"
-                >My personal profile</a
-              >
+        <div class="col-12 col-lg-4 p-0">
+          <div class="card contact-card second-contact-card mb-3">
+            <div class="row g-0">
+              <div class="col-lg-3">
+                <a
+                  href="https://www.linkedin.com/in/ielyzaveta-panchenko/"
+                  target="_blank"
+                >
+                  <img
+                    src="/images/linkedin-logo.png"
+                    class="img-fluid "
+                    alt="LinkedIn logo"
+                  />
+                </a>
+              </div>
+              <div class="col-lg-9">
+                <div class="card-body">
+                  <h5 class="card-title">LinkedIn</h5>
+                  <a
+                    href="https://www.linkedin.com/in/ielyzaveta-panchenko/"
+                    target="_blank"
+                    >My personal profile</a
+                  >
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card">
-            <a href="https://github.com/liz-panchenko" target="_blank">
-              <img
-                src="/images/github-logo.png"
-                class="card-img-top"
-                alt="..."
-              />
-            </a>
-            <div class="card-body">
-              <h5 class="card-title">GitHub</h5>
-              <a href="mailto:panchenko.elisa@gmail.com" target="_blank"
-                >My public projects</a
-              >
+        <div class="col-12 col-lg-4 p-0">
+          <div class="card contact-card mb-3">
+            <div class="row g-0">
+              <div class="col-lg-3">
+                <a href="https://github.com/liz-panchenko" target="_blank">
+                  <img
+                    src="/images/github-logo.png"
+                    class="img-fluid "
+                    alt="GitHub logo"
+                  />
+                </a>
+              </div>
+              <div class="col-lg-9">
+                <div class="card-body">
+                  <h5 class="card-title">GitHub</h5>
+                  <a href="mailto:panchenko.elisa@gmail.com" target="_blank"
+                    >My public projects</a
+                  >
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </footer>
+      </div>
     </div>
     <script src="/src/app.js"></script>
   </body>
-  </html>
+</html>

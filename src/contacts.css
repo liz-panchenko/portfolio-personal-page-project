@@ -1,0 +1,48 @@
+.contact-hero {
+  margin-top: 150px;
+  margin-bottom: 60px;
+}
+
+#overwrite-contact .contact-card {
+  text-align: center;
+  background: linear-gradient(
+    270deg,
+    #e8f1ff 0%,
+    #ecf4ff 41.15%,
+    #f3f8ff 65.1%,
+    #ffffff 93.75%
+  );
+  border: none;
+  padding: 20px;
+  color: var(--primary-color);
+}
+
+#overwrite-contact .contact-card .card-body a {
+  font-weight: normal;
+  font-size: 12px;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+@media (max-width: 576px) {
+    .contact-hero {
+        margin-top: 80px;
+  margin-bottom: 30px;
+    }
+}
+@media (max-width: 992px) {
+  #overwrite-contact .second-contact-card  {
+    background: linear-gradient(
+      90deg,
+      #e8f1ff 0%,
+      #ecf4ff 41.15%,
+      #f3f8ff 65.1%,
+      #ffffff 93.75%
+    );
+  }
+  #overwrite-contact .card-title {
+      font-size: 2em;
+  }
+  #overwrite-contact .contact-card .card-body a {
+      font-size: 1.3rem;
+  }
+}
