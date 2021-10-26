@@ -36,6 +36,7 @@ h3 {
 }
 
 .navigation-link {
+  border: solid 1px var(--accent-color);
   display: block;
   margin: 25px auto 50px;
   width: fit-content;
@@ -44,7 +45,6 @@ h3 {
 }
 
 .navigation-link:hover {
-  border: solid 1px var(--accent-color);
   border-radius: 100px; 
   background-color: white;
 }

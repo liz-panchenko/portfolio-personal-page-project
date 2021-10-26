@@ -11,6 +11,7 @@
   margin: 30px auto 50px;
   padding: 5px 45px;
   border-radius: 100px;
+  border: solid 1px var(--accent-color);
   width: fit-content;
   background-color: var(--accent-color);
   color: white;
@@ -21,7 +22,6 @@
 }
 
 .cv-link:hover{
-  border: solid 1px var(--accent-color);
   border-radius: 100px; 
   background-color: white;
   color: var(--accent-color);
