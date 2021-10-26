@@ -1,6 +1,6 @@
 .contact-hero {
-  margin-top: 150px;
-  margin-bottom: 60px;
+  margin-top: 138px;
+  margin-bottom: 90px;
 }
 
 #overwrite-contact .contact-card {
@@ -24,13 +24,17 @@
   color: var(--primary-color);
 }
 @media (max-width: 576px) {
-    .contact-hero {
-        margin-top: 80px;
-  margin-bottom: 30px;
-    }
+  .contact-hero {
+    margin-top: 85px !important;
+    margin-bottom: 27px !important;
+  }
 }
 @media (max-width: 992px) {
-  #overwrite-contact .second-contact-card  {
+  .contact-hero {
+    margin-top: 110px;
+    margin-bottom: 30px;
+  }
+  #overwrite-contact .second-contact-card {
     background: linear-gradient(
       90deg,
       #e8f1ff 0%,
@@ -40,9 +44,9 @@
     );
   }
   #overwrite-contact .card-title {
-      font-size: 2em;
+    font-size: 2em;
   }
   #overwrite-contact .contact-card .card-body a {
-      font-size: 1.3rem;
+    font-size: 1.3rem;
   }
 }
