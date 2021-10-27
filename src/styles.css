@@ -47,6 +47,7 @@ h3 {
 .navigation-link:hover {
   border-radius: 100px; 
   background-color: white;
+  transition: all 100ms ease-in-out;
 }
 
 a.primary-link {
@@ -60,6 +61,7 @@ a.primary-link {
 
 a.primary-link:hover{
   color:var(--accent-color);
+  transition: all 100ms ease-in-out;
 }
 
 .dots-img-rotated {

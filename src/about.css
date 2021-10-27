@@ -25,6 +25,7 @@
   border-radius: 100px; 
   background-color: white;
   color: var(--accent-color);
+  transition: all 100ms ease-in-out;
 }
 
 @media (max-width: 576px) {
