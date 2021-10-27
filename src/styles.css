@@ -45,7 +45,7 @@ h3 {
 }
 
 .navigation-link:hover {
-  border-radius: 100px; 
+  border-radius: 100px;
   background-color: white;
   transition: all 100ms ease-in-out;
 }
@@ -59,8 +59,8 @@ a.primary-link {
   text-decoration: none;
 }
 
-a.primary-link:hover{
-  color:var(--accent-color);
+a.primary-link:hover {
+  color: var(--accent-color);
   transition: all 100ms ease-in-out;
 }
 
@@ -93,8 +93,8 @@ a.primary-link:hover{
 
 .portfolio-project-description-right p,
 .portfolio-project-description-left p {
-    line-height: 1.7;
-    opacity: 0.8;
+  line-height: 1.7;
+  opacity: 0.8;
 }
 
 .portfolio-project-description-right a,
@@ -147,6 +147,11 @@ footer a {
   font-weight: normal;
   font-size: 16px;
   text-decoration: none;
+  color: var(--primary-color);
+}
+
+footer .card-body a:hover {
+  text-decoration: underline dotted var(--accent-color);
   color: var(--primary-color);
 }
 

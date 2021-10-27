@@ -23,6 +23,14 @@
   text-decoration: none;
   color: var(--primary-color);
 }
+
+#overwrite-contact .contact-card .card-body a:hover {
+  text-decoration: underline dotted var(--accent-color);
+  color: var(--primary-color);
+  zoom: 110%;
+  transition: all 100ms ease-in-out;
+}
+
 @media (max-width: 576px) {
   .contact-hero {
     margin-top: 85px !important;
